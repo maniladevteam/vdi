@@ -21,7 +21,6 @@ String uid = request.getParameter("uid");
 
 if (digest == null || session == null) {
 
-
 %>
 
 <script type="text/javascript">

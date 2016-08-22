@@ -123,7 +123,7 @@
 					dataTable = dataTable + "<tr><td>"
 							+ resultsArray[i].ProductName + "</td>";
 					dataTable = dataTable + "<td style='text-align:center;'>"
-							+ ReturnBlank(resultsArray[i].version_number)
+							+ ReturnBlank(resultsArray[i].ProductVersion)
 							+ "</td>";
 					dataTable = dataTable + "<td style='text-align:center'>" + ReturnBlank(resultsArray[i].release_date) + "</td></tr>";
 					//if (resultsArray[i].append_vm_products != "") {

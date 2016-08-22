@@ -90,7 +90,7 @@ img.map, map area {
 			<div id="header">
 				<div id="header-content">
 					<a href="javascript:void(0)" onclick='location.reload()'><img
-						id="headerimg" src="img/vdi_vm_header2.jpg"
+						id="headerimg" src="img/vdi_vm_header24.jpg"
 						href="javascript:void(0)" onclick="window.reload" /> <!-- <span
 						id="optimized_chrome">****************This portal is
 							optimized for Google Chrome******************</span> --> </a>
