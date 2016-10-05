@@ -32,7 +32,7 @@
 <script src="client/foundation-5.5.2/js/foundation/foundation.js"></script>
 <script src="client/foundation-5.5.2/joyride/jquery.joyride-2.1.js"></script>
 <script src="client/foundation-5.5.2/joyride/jquery.cookie.js"></script>
-
+  
 
 <script src="client/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
 <script src="client/bootstrap_tour/js/bootstrap-tour-standalone.js"></script>
@@ -166,11 +166,11 @@ img.map, map area {
 			</div>
 
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-				aria-labelledby="myModalLabel">
+				aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="false">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"
+				  			<button type="button" class="close" data-dismiss="modal"
 								aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>

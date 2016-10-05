@@ -14,6 +14,11 @@
 	overflow-x: hidden !important;
 	overflow-y: auto !important;
 }
+
+#tester{
+	min-height: 300px;
+	max-height: 300px;
+}
 </style>
 <div id="tester" style="position : relative;">
 	<table id="appendvm"

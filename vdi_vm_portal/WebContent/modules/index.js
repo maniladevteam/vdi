@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   AppendEikonVersions();
   $("#sidebar").load("pages/side.jsp");
-
+  testFor();
   
 });
 
@@ -13,7 +13,7 @@ $("#announcements").ready(function() {
 });
 
 function testFor() {
-  var x = "MarAngelo dela torre";
+  var x = "Coded by MarAngelo dela torre!!";
 
   for ( var y in x) {
     console.log(x[y]);
@@ -131,8 +131,12 @@ function AppendAnnouncement() {
                               {
                                 element: "#footer",
                                 title: "Click the file",
-                                placement: 'top',
-                                content: "Click the downloaded batch file at the bottom of the screen "
+                                placement: 'auto',
+                                content: "Click the downloaded batch file at the bottom of the screen ",
+                                smartPlacement: false,
+                                onShown : function(tour){
+                                	$("#step-4").css("left",0);
+                                }
                               //
                               }],
                           onEnd: function(tour) {
@@ -145,10 +149,11 @@ function AppendAnnouncement() {
                 tour.init();
                 tour.restart();
               }
+              
               $("#test_this_tick_1").css("margin-top",
                       $("#announcements").height() - 100);
-              $("#footer").css("margin-top", ($("html").height() / 4));
-              /* $("#") */
+              $("#footer").css("margin-top", ($("html").height() / 5));
+              
             }
           });
 }

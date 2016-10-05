@@ -11,12 +11,13 @@
 </head>
 <body>
 
-<form method="post" action="j_security_check">
-    <table>
+<form method="post" action="http://10.52.131.136:8080/vdi_vmm_portal/">
+<!--     <table>
     <tr><td>Username:</td><td><input type="text" name="j_username" /></td></tr>
     <tr><td>Password:</td><td><input type="password" name="j_password" /></td></tr>
-    <tr><td><input type="submit" value="Login" /></td></tr>
-    </table>
+    <tr><td></td></tr>
+    </table> -->
+    <input type="submit" value="Login" />
 </form>
 </body>
 </html>
